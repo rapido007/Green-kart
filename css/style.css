@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+}
+.head-container
+{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    height: 120px;
+    width: auto;
+    
+    
+}
+.head-child
+{
+
+}
+.brand-name
+{
+    color: #006633;
+    font-size: 60px;
+    font-family: cursive;
+    font-weight: 600;
+}
+.logo
+{
+    height: 100px;
+}
+.navbar-container
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    width: auto;
+    background-color: #92E3A9;
+}
+.navbar-child
+{
+
+}
+.nav-elements{
+    margin: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-decoration: none;
+    align-items: center;
+    color: #006633 ;
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 6px;
+}
+.nav-elements:hover{
+    color: black;
+    background-color: white;
+    border-radius: 14px;
+}
+.box-section{
+    font-size: 25px;
+    border: 1px solid #0F9D58;
+    border-radius: 10px;
+    align-items: center;
+}
+.box-section:hover{
+    border: 3px solid #0F9D58;
+}
+.text-field{
+    height: 27px;
+    width: 300px;
+    border: 1px solid #0F9D58;
+    border-radius: 10px;
+    color: #006633;
+    margin-left: 3px;
+
+}
+.text-field:hover{
+    border: 3px solid #0F9D58;
+}
+.navbar-child-container{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.opt{
+    color: #006633;
+}
