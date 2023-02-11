@@ -108,3 +108,11 @@ body{
     border-radius: 15px;
     padding: 3px;
 }
+.line-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.special-high{
+    color: #006633;
+}
