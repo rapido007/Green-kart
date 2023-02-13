@@ -11,10 +11,7 @@ body{
     
     
 }
-.head-child
-{
 
-}
 .brand-name
 {
     color: #006633;
@@ -36,10 +33,7 @@ body{
     background-color: #92E3A9;
     
 }
-.navbar-child
-{
 
-}
 .nav-elements{
     margin: 10px;
     font-size: 20px;
@@ -89,9 +83,6 @@ body{
     margin-top: 20px;
     height:400px;
     width: 400px;
-
-
-    
 }
 .line-1{
     text-align: center;
@@ -201,3 +192,102 @@ body{
   border: 5px solid ;
   border-radius: 15px;
 }   
+.circle-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.circle-child{
+    padding: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+.circle-child-image{
+    height: 170px;
+    border-radius: 200px;
+    border: 3px solid #92E3A9;
+    padding: 4px;
+}
+.circle-child-text{
+    font-size: 23px;
+    font-family: monospace;
+}
+.emoticon-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.emoticon-child{
+    margin-top: 80px;
+    height: 50px;
+    padding: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+.emoticon-image{
+    height: 100x;
+    padding: 4px;
+}
+.emoticon-text{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.footer-container{
+    background-color: #92E3A9;
+    margin-top: 100px;
+    height: 80px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.footer-child{
+    background-color: #92E3A9;
+    margin-top: 70px;
+    font-size: 40px;
+    font-family: monospace;
+    color: #006633 ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.footer-end-container{
+    background-color: #92E3A9;
+    margin-top: 40px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.text-footer{
+    background-color: #92E3A9;
+    font-size: 27px;
+    font-family: monospace;
+    color: #006633;
+}
+.main-footer{
+    background-color: #92E3A9;
+}
+.emoticon-child-l-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 5px;
+}
+.emoticon-image-l{
+    height: 30px;
+    margin: 5px;
+    padding: 5px;
+}
+.hyperlink-l{
+    margin-top: 80px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: monospace;
+    color: #006633;
+}
