@@ -85,8 +85,13 @@ body{
 .opt{
     color: #006633;
 }
-.slide-image{
+.front-img{
     margin-top: 20px;
+    height:400px;
+    width: 400px;
+
+
+    
 }
 .line-1{
     text-align: center;
@@ -116,3 +121,83 @@ body{
 .special-high{
     color: #006633;
 }
+.main-headding {
+    font-family: sans-serif;
+    font-size: 80px;
+    position: absolute;
+    top: 10px;
+}
+.parent-container{
+    position: relative;
+    margin-left:;
+    text-align: center;
+
+}
+.first-img-container{
+    position: relative;
+    margin-top: 30px;
+    background-color: white;
+    width: 1350px;
+    height: 500px;
+}
+
+   
+
+.child-container{
+    position:absolute;
+    top: 100px;
+    left: 550px;
+    font-size: larger;
+    margin-top: 5px;
+    
+}
+.front-img-2{
+    
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    width: 450px;
+    height: 450px;
+}
+.front-img{
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    margin-top: 20px;
+
+}
+
+
+.happy{
+    font-size: 80px;
+    color:#0b9751;
+    font-family: cursive;
+    
+}
+.home-btn{
+    background-color: #0b9751;
+    border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  align-items: center;
+  padding: 15px 32px;
+  position: absolute;
+  border: 5px solid ;
+  border-radius: 15px;
+  
+}
+.home-btn-2{
+    background-color: #000702;
+    border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  align-items: center;
+  padding: 15px 32px;
+  margin-left: 80px;
+  border: 5px solid ;
+  border-radius: 15px;
+}   
