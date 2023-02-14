@@ -291,3 +291,16 @@ body{
     font-family: monospace;
     color: #006633;
 }
+
+/*Accessories page start */
+.Accessories-container{
+    position:absolute;
+    top: 200px;
+    left: 550px;
+    font-size: smaller;
+    margin-top: 5px;
+
+}
+.Accessories-img{
+    
+}
