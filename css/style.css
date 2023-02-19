@@ -403,7 +403,7 @@ body{
  border-radius: 10px;
  height: 50px;
  width: 200px ;
- cursor: pointer;
+ cursor: pointer ;
 }
 .plant-btn :hover {background-color: #3e8e41}
 .plant-btn:active {
