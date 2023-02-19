@@ -396,6 +396,8 @@ body{
     
  height: 40px;
  width: 120px;
+ color: #000702;
+ font-size: large ;
  background-color: #92E3A9;
  border:2px solid #1DB954 ;
  border-radius: 10px;
@@ -410,10 +412,9 @@ body{
     transform: translateY(4px);
   }
 .Popular-p{
- align-items: center;
- align-items: center;
- margin-left: 400px;
- margin-top: 70px;
+ display: flex;
+ justify-content: center;
+ margin-top: 80px;
  font-family: cursive;
  color: #006633;
 }
@@ -446,7 +447,7 @@ body{
     padding: 30px;
     border: 2px solid #92E3A9;
    padding: 8px;
-   border-radius: 25px;
+   border-radius: 10px;
    justify-content: space-between;
  
 }
@@ -463,9 +464,9 @@ body{
 }
 .ocasion-btn{
     
-        background-color:  #92E3A9;
-        border: none;
-        color: white;
+         background-color: #92E3A9;
+        border:2px solid #1DB954 ;
+        border-radius: 10px;
         padding: 15px 32px;
         text-align: center;
         text-decoration: none;
@@ -474,10 +475,11 @@ body{
         cursor: pointer; 
         margin-top: 30px;
         margin-right: 400px;
-        margin-left: 500px;
-        width: 300px;
-        border: 5px solid ;
-        border-radius: 15px;
+        margin-left: 600px;
+        width: 400px;
+       color: #000702;
+       font-size: larger;
+       
     }
 .flower{
     align-items: center;
@@ -494,26 +496,28 @@ body{
     color:#006633;
 }
 .type-p{
-    height: 600px;
+    height: 400px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    margin-top: 100px;
+  
     
     
 }
 .type-p-child{
     height: 420px;
     width: 550px;
-    margin-top: 40px;
+    
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: space-evenly;
     
   
 }
 .type-p-img1{
-    height: 420px;
-    width: 550px;
+    height: 360px;
+    
    margin-right: 30px;
    border-radius: 15px;
    border: 5px solid  #92E3A9;
@@ -521,19 +525,20 @@ body{
   
 }
 .type-p-img2{
-    height: 420px;
-    width: 550px;
-margin-left: 20px;
-border-radius: 15px;
-border: 5px solid  #92E3A9;
+    height: 360px;
+   
+    margin-left: 20px;
+    border-radius: 15px;
+    border: 5px solid  #92E3A9;
 }
 .type-text1{
     display:flex;
     font-size: 23px;
     font-family: monospace;
     color:#006633;
-    margin-top: 500px;
-    margin-right: 400px;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
     text-align: center;
     justify-content: space-evenly;
    
