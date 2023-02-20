@@ -22,15 +22,18 @@
     display: inline-block;
     justify-content: space-around;
 }
-
-
-
-
+.line-1{ 
+    text-align: center;
+    margin: 20px;
+    font-size: 30px;
+    font-family: monospace ;
+    font-weight: 500;
+    text-decoration: none;
+}
 
 .rl-image{
     height: 150px;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin-top: 20px; 
     border-radius: 5px;
     box-shadow: 0 2px 5px #006633;
 }
@@ -52,10 +55,6 @@
 } 
  .prise-btn:hover{
     background-color: #12d048;
-}
-
-.Ru{
-    margin-left: 50px;
 }
 
 
