@@ -28,7 +28,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 80px;
+    height: 100px;
     width: auto;
     background-color: #92E3A9;
     
@@ -36,6 +36,7 @@ body{
 
 .nav-elements{
     margin: 10px;
+    margin-left: 10px;
     font-size: 20px;
     font-family: sans-serif;
     text-decoration: none;
@@ -43,7 +44,7 @@ body{
     color: #006633 ;
     border: 3px solid white;
     border-radius: 10px;
-    padding: 6px;
+    padding: 10px;
 }
 .nav-elements:hover{
     color: black;
@@ -51,7 +52,7 @@ body{
     border-radius: 14px;
 }
 .box-section{
-    font-size: 25px;
+    font-size: 29px;
     border: 1px solid #0F9D58;
     border-radius: 10px;
     align-items: center;
@@ -60,7 +61,7 @@ body{
     border: 3px solid #0F9D58;
 }
 .text-field{
-    height: 27px;
+    height: 31px;
     width: 300px;
     border: 1px solid #0F9D58;
     border-radius: 10px;
