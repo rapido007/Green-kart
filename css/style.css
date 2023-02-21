@@ -181,8 +181,8 @@ body{
   
 }
 .home-btn-2{
-    background-color: #000702;
-    border: none;
+  background-color: #000702;
+  border: none;
   color: white;
   text-align: center;
   text-decoration: none;
@@ -201,6 +201,7 @@ body{
 }
 .circle-child{
     padding: 14px;
+    padding-bottom: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -501,10 +502,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-top: 100px;
-  
-    
-    
+    margin-top: 100px;   
 }
 .type-p-child{
     height: 420px;
@@ -554,61 +552,3 @@ body{
     align-items: center;
 }
 
-.payment-container{
-width:250px;
-height: 350px;
-border:3px solid #006633;
-position: absolute;
-top: 270px;
-left: 650px;
-/* text-align: center; */
-padding: 20px;
-background-color: #92E3A9;
-border-radius: 10px;
-
-
-}
-.image-card{
-    position: absolute;
-    left: 250px;
-    bottom: 55px;
-    
-}
-.card-number{
-    width: 250px;
-    border-radius: 5px;
-    height: 20px;
-    
-
-}
-.Expiry-date{
-    width: 250px;
-    border-radius: 5px;
-    height: 20px;
-    cursor: pointer;
-
-}
-.cvc{
-    width: 250px;
-    border-radius: 5px;
-    height: 20px; 
-    
-
-}
-.code{
-    width: 250px;
-    border-radius: 5px;
-    height: 20px; 
-    
-}
-
-.pay-btn{ 
-    width: 250px;
-    border-radius: 15px;
-    height: 30px; 
-    background-color: #006633;
-    color: white;
-    cursor: pointer;
-    box-shadow: #d5e4da 3px;
-
-}
