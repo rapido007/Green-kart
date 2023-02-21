@@ -104,7 +104,6 @@ body{
     margin: 5px;
     border-radius: 15px;
     padding: 3px;
-    height: 300px;
 }
 .line-2{
     display: flex;
@@ -122,7 +121,7 @@ body{
 }
 .parent-container{
     position: relative;
-    margin-left:0;
+    margin-left:;
     text-align: center;
 
 }
@@ -295,7 +294,6 @@ body{
     color: #006633;
 }
 
-
 .plants{
     background-color: #006633;
     font-family: cursive;
@@ -467,7 +465,7 @@ body{
 .ocasion-btn{ 
 
         background-color : #92E3A9; 
-         border:2px solid #1DB954 
+         border:2px solid #1DB954;
         font-size: 16px;
         margin: 4px 2px;
         cursor: pointer; 
