@@ -104,7 +104,6 @@ body{
     margin: 5px;
     border-radius: 15px;
     padding: 3px;
-    height: 300px;
 }
 .line-2{
     display: flex;
@@ -122,7 +121,7 @@ body{
 }
 .parent-container{
     position: relative;
-    margin-left:0;
+    margin-left:;
     text-align: center;
 
 }
@@ -294,8 +293,6 @@ body{
     font-family: monospace;
     color: #006633;
 }
-
-=======
 .plants{
     background-color: #006633;
     font-family: cursive;
