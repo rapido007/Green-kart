@@ -293,6 +293,10 @@ body{
     font-family: monospace;
     color: #006633;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> eecf5fbc13481d61108b2c130ebf6c9b45b83f7d
 .plants{
     background-color: #006633;
     font-family: cursive;
@@ -464,7 +468,7 @@ body{
 .ocasion-btn{ 
 
         background-color : #92E3A9; 
-         border:2px solid #1DB954 
+         border:2px solid #1DB954;
         font-size: 16px;
         margin: 4px 2px;
         cursor: pointer; 
